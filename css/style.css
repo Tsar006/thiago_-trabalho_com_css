@@ -1,0 +1,21 @@
+.centro {
+    text-align: center;
+}
+.tabelas_estilo {
+    border-spacing: 2vh;
+    table-layout: auto;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: beige;
+}
+
+.imagem {
+    border-image:none;
+    height: 50vh;
+    width: 60vh;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
