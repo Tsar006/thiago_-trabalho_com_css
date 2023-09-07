@@ -1,3 +1,10 @@
+.body {
+    background-image: url("/img/background_japao.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
 .centro {
     text-align: center;
 }
@@ -9,7 +16,11 @@
     margin-right: auto;
     background-color: beige;
 }
-
+.navbar_estilo {
+    border-spacing: 2vh;
+    table-layout: auto;
+    width: 80%;
+}
 .imagem {
     border-image:none;
     height: 50vh;
@@ -17,5 +28,18 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 80%;
+    width: 85%;
 }
+
+.botao {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px ;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 10%;
+    
+  }
+  
