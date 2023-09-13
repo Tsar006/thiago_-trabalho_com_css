@@ -9,14 +9,51 @@
     text-align: center;
 }
 .nav_estilo {
-    border-spacing: 2vh;
-    table-layout: auto;
-    width: 80%;
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
-    background-color: beige;
+    background-color: rgba(68, 31, 31, 0.952);
     display: inline-block;
+    position: fixed;
+    display: flex;
+    top: 0;
+    left: 0;
+    justify-content: center;
+    padding: 2vh;
 }
+nav {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+.nav_estilo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.logo img {
+    margin-right: 20px; /* Espaço entre a imagem e os botões */
+}
+
+.botoes_navbar {
+    display: flex;
+}
+
+.botao_navbar {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    margin-right: 20px; /* Espaço entre os botões */
+}
+
+.botao_navbar:last-child {
+    margin-right: 0; /* Remove o espaço à direita do último botão */
+}
+
 .imagem {
     border-image:none;
     height: 50vh;
@@ -40,7 +77,7 @@ html, body {
     background: #000;
 }
 
-.glow-on-hover {
+.botao_navbar {
     width: 220px;
     height: 50px;
     border: none;
@@ -51,39 +88,46 @@ html, body {
     position: relative;
     z-index: 0;
     border-radius: 10px;
-    font-size: 20px;
+    justify-content: center;
+    padding: 2vh;
+    margin-right: 2vh;
+
+}
+.botao_navbar:last-child{
+    margin-left: 0;
 }
 
-.glow-on-hover:before {
+.botao_navbar:before {
     content: '';
-    background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+    background: crimson;
     position: absolute;
     top: -2px;
     left:-2px;
     background-size: 400%;
     z-index: -1;
-    filter: blur(5px);
     width: calc(100% + 4px);
     height: calc(100% + 4px);
     animation: glowing 20s linear infinite;
     opacity: 0;
     transition: opacity .3s ease-in-out;
     border-radius: 10px;
+    
 }
 
-.glow-on-hover:active {
-    color: #000
+
+.botao_navbar:active {
+    color: crimson
 }
 
-.glow-on-hover:active:after {
+.botao_navbar:active:after {
     background: transparent;
 }
 
-.glow-on-hover:hover:before {
+.botao_navbar:hover:before {
     opacity: 1;
 }
 
-.glow-on-hover:after {
+.botao_navbar:after {
     z-index: -1;
     content: '';
     position: absolute;
