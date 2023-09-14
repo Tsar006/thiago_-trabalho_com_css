@@ -1,8 +1,3 @@
-.body {
-    background-image: url("../img/photo-1489186397658-228f2a7ac8ee.avif");
-    background-repeat: no-repeat;
-    background-size: 100%;
-}
 .nav_estilo {
     display: flex;
     width: 99%;
@@ -63,31 +58,15 @@
 .botao_navbar:last-child {
     margin-right: 0; /* Remove o espaço à direita do último botão */
 }
-.texto {
-    font-family: Georgia, serif;
-    font-size: 20px;
-    letter-spacing: 0.4px;
-    word-spacing: 2.6px;
-    color: #000000;
-    font-weight: 400;
-    text-decoration: none;
-    font-style: normal;
-    font-variant: normal;
-    text-transform: none;
-    text-shadow: 1.5px 1.5px #969696;
-}
+
 .imagem {
+    border-image:none;
     height: 50vh;
     width: 60vh;
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 85%;
-    border-radius: 2vh;
-    border: 1px solid black;
-    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
-    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
-    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
 }
 .botao_navbar {
     width: 220px;
