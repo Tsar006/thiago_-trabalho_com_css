@@ -79,7 +79,7 @@
 .imagem {
     height: 50vh;
     width: 60vh;
-    display: block;
+    display:flex;
     margin-left: auto;
     margin-right: auto;
     width: 85%;
@@ -157,11 +157,21 @@
     100% { background-position: 0 0; }
 }
 
-.tabelas_estilo {
-    border-spacing: 2vh;
-    table-layout: auto;
-    width: 90%;
-    margin-left: auto;
-    margin-right: auto;
-    background-color: rgba(245, 245, 220, 0.384);
+  
+.parent {
+    border: 1px solid black;
+    margin: 1rem;
+    padding: 2rem 2rem;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+
 }
+
+.child {
+    display: inline-block;
+    border: 1px solid red;
+    padding: 1rem 1rem;
+    vertical-align: middle;
+    flex: 1;
+  }
