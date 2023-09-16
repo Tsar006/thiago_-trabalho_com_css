@@ -1,5 +1,5 @@
 .body {
-    background-image: url("../img/photo-1489186397658-228f2a7ac8ee.avif");
+    background-image: url("../img/fundo_introdução.jpg");
     background-repeat: no-repeat;
     background-size: 100%;
 }
@@ -159,7 +159,6 @@
 
   
 .parent {
-    border: 1px solid black;
     margin: 1rem;
     padding: 2rem 2rem;
     text-align: center;
@@ -170,7 +169,6 @@
 
 .child {
     display: inline-block;
-    border: 1px solid red;
     padding: 1rem 1rem;
     vertical-align: middle;
     flex: 1;
